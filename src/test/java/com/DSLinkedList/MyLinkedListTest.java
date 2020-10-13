@@ -4,10 +4,10 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class MyNodeTest {
+class MyLinkedListTest {
 
 	@Test
-	public void given3NumbersWhenAddedToLinkesListShouldBeAddedToTop() {
+	void given3NumbersWhenAddedToLinkesListShouldBeAddedToTop() {
 		MyNode<Integer> firstElement = new MyNode<>(70);
 		MyNode<Integer> secondElement = new MyNode<>(30);
 		MyNode<Integer> thirdElement = new MyNode<>(56);
